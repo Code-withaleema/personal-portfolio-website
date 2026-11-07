@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aleema Baig | Junior Front-End Developer</title>
+  <meta name="description" content="Portfolio of Aleema Baig, a BBIT student and junior front-end developer building clean, responsive, user-friendly websites.">
+  <meta name="author" content="Aleema Baig">
+  <meta name="theme-color" content="#faf7f2">
+
+  <meta property="og:title" content="Aleema Baig | Junior Front-End Developer">
+  <meta property="og:description" content="BBIT student passionate about building clean, responsive, user-friendly websites.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='28' fill='%237c6bb5'/%3E%3Ctext x='50' y='68' font-size='56' font-family='Georgia,serif' font-weight='700' text-anchor='middle' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Navigation -->
+  <header class="site-header" id="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="brand" aria-label="Aleema.dev home">Aleema<span>.dev</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-glow hero-glow-1" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-2" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">HELLO, I'M</p>
+          <h1 class="hero-title">Aleema Baig</h1>
+          <p class="hero-role">Junior Front-End Developer</p>
+          <p class="hero-text">
+            I'm a BBIT student passionate about building clean, responsive and user-friendly websites.
+            I enjoy turning ideas into simple, accessible interfaces that feel great on every screen.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+
+          <ul class="tech-tags" aria-label="Core technologies">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="code-window">
+            <div class="window-bar">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+              <span class="window-title">portfolio.html</span>
+            </div>
+            <pre class="code-body"><code><span class="c-tag">&lt;section</span> <span class="c-attr">class</span>=<span class="c-str">"hero"</span><span class="c-tag">&gt;</span>
+  <span class="c-tag">&lt;h1&gt;</span>Aleema Baig<span class="c-tag">&lt;/h1&gt;</span>
+  <span class="c-tag">&lt;p&gt;</span>Clean. Responsive.<span class="c-tag">&lt;/p&gt;</span>
+<span class="c-tag">&lt;/section&gt;</span>
+
+<span class="c-sel">.hero</span> {
+  <span class="c-prop">display</span>: <span class="c-val">grid</span>;
+  <span class="c-prop">gap</span>: <span class="c-val">2rem</span>;
+}
+
+<span class="c-key">const</span> <span class="c-var">goal</span> = <span class="c-str">"learn &amp; build"</span>;</code></pre>
+          </div>
+
+          <div class="float-chip chip-a">&lt;/&gt; HTML5</div>
+          <div class="float-chip chip-b">{ } CSS3</div>
+          <div class="float-chip chip-c">JS</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2 class="section-title">Learning, building and improving every day</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm Aleema, a BBIT student who is developing my front-end development skills by building
+              practical website projects. I like taking a design idea and turning it into a working,
+              polished page using HTML, CSS and JavaScript.
+            </p>
+            <p>
+              I care about the details that make a website pleasant to use: clear layouts, readable
+              typography, comfortable spacing and pages that adapt smoothly from phones to large screens.
+              I'm still early in my journey, and I enjoy learning something new with every project.
+            </p>
+          </div>
+
+          <div class="about-cards">
+            <article class="info-card reveal">
+              <div class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3>Front-End Development</h3>
+              <p>Writing clean, semantic code and turning designs into real web pages.</p>
+            </article>
+
+            <article class="info-card reveal">
+              <div class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="14" height="11" rx="2"/><rect x="14" y="9" width="8" height="11" rx="2"/></svg>
+              </div>
+              <h3>Responsive Design</h3>
+              <p>Creating layouts that look and work well on mobile, tablet and desktop.</p>
+            </article>
+
+            <article class="info-card reveal">
+              <div class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+              </div>
+              <h3>User-Friendly Interfaces</h3>
+              <p>Focusing on clarity, simplicity and an easy experience for every visitor.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">SKILLS</p>
+          <h2 class="section-title">Tools and technologies I work with</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-badge">H5</div>
+            <h3>HTML5</h3>
+            <p>Semantic, accessible page structure.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-badge">C3</div>
+            <h3>CSS3</h3>
+            <p>Flexbox, Grid, transitions and clean styling.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-badge">JS</div>
+            <h3>JavaScript</h3>
+            <p>Adding interactivity with vanilla JavaScript.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-badge">RWD</div>
+            <h3>Responsive Web Design</h3>
+            <p>Mobile-first layouts that adapt to any screen.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-badge">WP</div>
+            <h3>WordPress</h3>
+            <p>Building and managing simple WordPress sites.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-badge">Py</div>
+            <h3>Python <span class="level">Beginner</span></h3>
+            <p>Learning the fundamentals of programming.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">PROJECTS</p>
+          <h2 class="section-title">Featured project</h2>
+        </div>
+
+        <article class="project-card reveal">
+          <div class="project-preview" aria-hidden="true">
+            <div class="mini-browser">
+              <div class="mini-bar"><span></span><span></span><span></span></div>
+              <div class="mini-page">
+                <div class="mini-nav"><b></b><i></i><i></i><i></i></div>
+                <div class="mini-hero">
+                  <div class="mini-lines">
+                    <em></em><em></em><em class="short"></em>
+                    <u></u>
+                  </div>
+                  <div class="mini-cup">
+                    <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 24h34v14a14 14 0 0 1-14 14h-6a14 14 0 0 1-14-14V24z"/><path d="M46 28h4a6 6 0 0 1 0 12h-5"/><path d="M22 8c-2 3 2 5 0 8M32 8c-2 3 2 5 0 8M42 8c-2 3 2 5 0 8"/></svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <span class="project-label">Responsive website</span>
+            <h3>Benova Coffee Shop</h3>
+            <p>
+              A responsive coffee shop website built with front-end technologies. It is a practical
+              project where I practised page layout, responsive design and clean, user-friendly styling.
+            </p>
+
+            <ul class="tech-tags small" aria-label="Technologies used">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+
+            <div class="project-actions">
+              <a href="https://code-withaleema.github.io/benova-coffee-shop/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                Live Demo
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"/><path d="M8 7h9v9"/></svg>
+              </a>
+              <a href="https://github.com/Code-withaleema/benova-coffee-shop" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                View Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <p class="projects-note reveal">More projects are on the way as I keep learning and building.</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">CONTACT</p>
+          <h2 class="section-title">Let's connect</h2>
+          <p class="section-sub">
+            I'm open to learning opportunities and small web projects. You can find my work on GitHub
+            or get in touch through Fiverr.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <a class="contact-card reveal" href="https://github.com/Code-withaleema" target="_blank" rel="noopener noreferrer">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+            </div>
+            <div>
+              <h3>GitHub</h3>
+              <p>Code-withaleema</p>
+            </div>
+          </a>
+
+          <a class="contact-card reveal" href="https://www.fiverr.com/aleema_baig" target="_blank" rel="noopener noreferrer">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <div>
+              <h3>Fiverr</h3>
+              <p>aleema_baig</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#home" class="brand" aria-label="Back to top">Aleema<span>.dev</span></a>
+      <p>&copy; <span id="year">2026</span> Aleema Baig. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/Code-withaleema" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.fiverr.com/aleema_baig" target="_blank" rel="noopener noreferrer">Fiverr</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
